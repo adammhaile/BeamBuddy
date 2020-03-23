@@ -1,0 +1,35 @@
+LCD Smart Controller
+https://reprap.org/mediawiki/images/7/70/Controller_final_reprapdiscount.pdf
+
+5V reg? https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-0.5/945-1648-5-ND/2834904
+_____
+|1 2|
+|3 4|
+ 5 6|
+|7 8|
+|9 *|
+-----
+
+EXP1
+1 : BEEP
+2 : ROTARY SW
+3 : LCD E(nable)
+4 : LCD RS
+5 : LCD 4 / DB4
+6 : LCD 5 / DB5
+7 : LCD 6 / DB6
+8 : LCD 7 / DB7
+9 : GND
+10: VCC
+
+EXP2
+1 : SD DATA OUT
+2 : SD CLK
+3 : ROTARY B
+4 : SD CS
+5 : ROTARY A
+6 : SD DATA IN
+7 : SD DETECT
+8 : RESET
+9 : NC
+10: NC
