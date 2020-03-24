@@ -1,0 +1,13 @@
+(fp_lib_table
+  (lib (name CD4082BM96)(type KiCad)(uri ${KIPRJMOD}/libs/CD4082BM96/CD4082BM96.pretty)(options "")(descr ""))
+  (lib (name CUI)(type KiCad)(uri ${KIPRJMOD}/libs/CUI/CUI.pretty)(options "")(descr ""))
+  (lib (name UJ2-BH-1-TH)(type Legacy)(uri ${KIPRJMOD}/libs/CUI/UJ2-BH-1-TH/UJ2-BH-1-TH.mod)(options "")(descr ""))
+  (lib (name MC7805CDTRKG)(type KiCad)(uri ${KIPRJMOD}/libs/MC7805CDTRKG/MC7805CDTRKG.pretty)(options "")(descr ""))
+  (lib (name SN74AHCT14D)(type KiCad)(uri ${KIPRJMOD}/libs/SN74AHCT14D/SN74AHCT14D.pretty)(options "")(descr ""))
+  (lib (name OPL_Capacitor)(type KiCad)(uri ${KIPRJMOD}/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Capacitor.pretty)(options "")(descr ""))
+  (lib (name OPL_Connector)(type KiCad)(uri ${KIPRJMOD}/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Connector.pretty)(options "")(descr ""))
+  (lib (name OPL_Crystal_Oscillator)(type KiCad)(uri ${KIPRJMOD}/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Crystal_Oscillator.pretty)(options "")(descr ""))
+  (lib (name OPL_Discrete_Semiconductor)(type KiCad)(uri ${KIPRJMOD}/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Discrete_Semiconductor.pretty)(options "")(descr ""))
+  (lib (name OPL_Resistor)(type KiCad)(uri ${KIPRJMOD}/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Resistor.pretty)(options "")(descr ""))
+  (lib (name digikey-footprints)(type KiCad)(uri G:/dev/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+)
