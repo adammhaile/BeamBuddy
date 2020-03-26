@@ -36,8 +36,6 @@ F 3 "~" H 1300 3100 50  0001 C CNN
 	1    1300 3100
 	-1   0    0    -1  
 $EndComp
-Text Notes -1550 2400 0    118  ~ 0
-X Min\nY Min\nX Max\nY Max\nDoor 1\nDoor 2\nFlow\nTemp
 $Comp
 L Device:R R1
 U 1 1 5E6D9131
@@ -120,8 +118,6 @@ Wire Wire Line
 	1500 1750 1700 1750
 Wire Wire Line
 	1500 2300 1700 2300
-Text Notes -3200 3000 0    98   ~ 0
-Limits go LOW when closed\nDoor switches need pull up assume NO\nFlow Sensor NO
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5E77CFB1
@@ -235,9 +231,7 @@ F18 "D17" B R 9900 1950 50
 F19 "D16" B R 9900 2050 50 
 F20 "D15" B R 9900 2150 50 
 F21 "D14" B R 9900 2250 50 
-F22 "TX" O R 9900 3300 50 
-F23 "RX" I R 9900 3200 50 
-F24 "RST" I L 8900 3300 50 
+F22 "RST" I L 8900 3300 50 
 $EndSheet
 NoConn ~ 11950 3800
 $Comp
@@ -459,9 +453,9 @@ Text GLabel 3900 5100 0    35   Input ~ 0
 DOOR_2
 Text GLabel 3900 5300 0    35   Input ~ 0
 FLOW
-Text GLabel 6100 5000 2    35   Input ~ 0
-LIM_X
 Text GLabel 6100 5200 2    35   Input ~ 0
+LIM_X
+Text GLabel 6100 5000 2    35   Input ~ 0
 LIM_Y
 $Comp
 L Device:LED D2
@@ -530,9 +524,9 @@ Text GLabel 3900 5200 0    35   Input ~ 0
 S_DOOR_2
 Text GLabel 3900 5400 0    35   Input ~ 0
 S_FLOW
-Text GLabel 6100 5100 2    35   Input ~ 0
-S_LIM_X
 Text GLabel 6100 5300 2    35   Input ~ 0
+S_LIM_X
+Text GLabel 6100 5100 2    35   Input ~ 0
 S_LIM_Y
 Text GLabel 6200 5500 2    35   Input ~ 0
 S_CHAIN_OUT
@@ -785,8 +779,8 @@ F 0 "C2" H 2600 4550 45  0000 L CNN
 F 1 "10uF" H 2650 4450 45  0000 L CNN
 F 2 "OPL_Capacitor:C1206" H 2550 4450 50  0001 C CNN
 F 3 "" H 2550 4450 50  0001 C CNN
-F 4 "CC1206KKX5R8BB106" H 2580 4600 20  0001 C CNN "MPN"
-F 5 "302010181" H 2580 4600 20  0001 C CNN "SKU"
+F 4 "1276-6736-1-ND" H 2580 4600 20  0001 C CNN "MPN"
+F 5 "1276-6736-1-ND" H 2580 4600 20  0001 C CNN "SKU"
 	1    2550 4450
 	1    0    0    -1  
 $EndComp
@@ -802,8 +796,8 @@ F 0 "C1" H 1800 4550 45  0000 L CNN
 F 1 "10uF" H 1850 4450 45  0000 L CNN
 F 2 "OPL_Capacitor:C1206" H 1750 4450 50  0001 C CNN
 F 3 "" H 1750 4450 50  0001 C CNN
-F 4 "CC1206KKX5R8BB106" H 1780 4600 20  0001 C CNN "MPN"
-F 5 "302010181" H 1780 4600 20  0001 C CNN "SKU"
+F 4 "1276-6736-1-ND" H 1780 4600 20  0001 C CNN "MPN"
+F 5 "1276-6736-1-ND" H 1780 4600 20  0001 C CNN "SKU"
 	1    1750 4450
 	-1   0    0    -1  
 $EndComp
@@ -1202,4 +1196,6 @@ F 3 "~" H 8000 5700 50  0001 C CNN
 	1    8000 5700
 	0    -1   -1   0   
 $EndComp
+Text GLabel 8900 3300 0    35   Input ~ 0
+RST
 $EndSCHEMATC

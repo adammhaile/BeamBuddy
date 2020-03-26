@@ -10,4 +10,5 @@
   (lib (name OPL_Discrete_Semiconductor)(type KiCad)(uri ${KIPRJMOD}/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Discrete_Semiconductor.pretty)(options "")(descr ""))
   (lib (name OPL_Resistor)(type KiCad)(uri ${KIPRJMOD}/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Resistor.pretty)(options "")(descr ""))
   (lib (name digikey-footprints)(type KiCad)(uri G:/dev/digikey-kicad-library/digikey-footprints.pretty)(options "")(descr ""))
+  (lib (name OPL_Integrated_Circuit)(type KiCad)(uri ${KIPRJMOD}/libs/SeeedOPL/Seeed_Fusion_PCBA_OPL_Component_Library_for_KiCad/OPL_Integrated_Circuit.pretty)(options "")(descr ""))
 )
