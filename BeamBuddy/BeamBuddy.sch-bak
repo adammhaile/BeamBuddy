@@ -36,8 +36,6 @@ F 3 "~" H 1300 3100 50  0001 C CNN
 	1    1300 3100
 	-1   0    0    -1  
 $EndComp
-Text Notes -1550 2400 0    118  ~ 0
-X Min\nY Min\nX Max\nY Max\nDoor 1\nDoor 2\nFlow\nTemp
 $Comp
 L Device:R R1
 U 1 1 5E6D9131
@@ -120,8 +118,6 @@ Wire Wire Line
 	1500 1750 1700 1750
 Wire Wire Line
 	1500 2300 1700 2300
-Text Notes -3200 3000 0    98   ~ 0
-Limits go LOW when closed\nDoor switches need pull up assume NO\nFlow Sensor NO
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5E77CFB1
